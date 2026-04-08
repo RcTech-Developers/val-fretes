@@ -1,11 +1,9 @@
-import { Home, Building2, Zap, Sofa, PackageCheck } from "lucide-react";
+import { Home, Building2, Sofa } from "lucide-react";
 
 const services = [
   { icon: Home, title: "Mudanças Residenciais", desc: "Transporte seguro de toda a sua casa com cuidado e organização." },
   { icon: Building2, title: "Mudanças Comerciais", desc: "Soluções para escritórios e estabelecimentos comerciais." },
-  { icon: Zap, title: "Fretes Rápidos", desc: "Entregas ágeis para quando você precisa de velocidade." },
   { icon: Sofa, title: "Transporte de Móveis", desc: "Seus móveis transportados com proteção e segurança total." },
-  { icon: PackageCheck, title: "Pequenas Cargas", desc: "Ideal para volumes menores com o mesmo profissionalismo." },
 ];
 
 const Servicos = () => {
@@ -25,7 +23,7 @@ const Servicos = () => {
           {services.map((s) => (
             <div
               key={s.title}
-              className="glass-card p-8 hover:scale-[1.03] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 group cursor-default"
+              className="glass-card p-8 hover:scale-105 hover:shadow-lg transition-all duration-300 group cursor-default"
             >
               <div className="w-14 h-14 mb-5 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <s.icon className="text-primary" size={28} />

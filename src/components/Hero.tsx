@@ -7,12 +7,12 @@ const Hero = () => {
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-background/85" />
+        <img src={heroBg} alt="Caminhão de mudança profissional" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/80" />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl pt-16">
-        <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 animate-fade-up">
+        <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 animate-fade-up text-foreground">
           Fretes e Mudanças com{" "}
           <span className="text-gradient">Segurança, Agilidade e Confiança</span>
         </h1>
@@ -30,17 +30,10 @@ const Hero = () => {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-secondary text-secondary-foreground px-8 py-4 rounded-xl text-lg font-semibold hover:bg-muted hover:scale-105 transition-all border border-border"
+            className="bg-foreground text-background px-8 py-4 rounded-xl text-lg font-semibold hover:opacity-90 hover:scale-105 transition-all"
           >
             Falar no WhatsApp
           </a>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground flex items-start justify-center p-1">
-          <div className="w-1.5 h-2.5 bg-primary rounded-full" />
         </div>
       </div>
     </section>

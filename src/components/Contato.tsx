@@ -28,7 +28,7 @@ const Contato = () => {
               required
               value={form.nome}
               onChange={(e) => setForm({ ...form, nome: e.target.value })}
-              className="bg-muted/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
+              className="bg-secondary border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
             />
             <input
               type="tel"
@@ -36,7 +36,7 @@ const Contato = () => {
               required
               value={form.telefone}
               onChange={(e) => setForm({ ...form, telefone: e.target.value })}
-              className="bg-muted/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
+              className="bg-secondary border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
             />
           </div>
           <input
@@ -45,7 +45,7 @@ const Contato = () => {
             required
             value={form.origem}
             onChange={(e) => setForm({ ...form, origem: e.target.value })}
-            className="w-full bg-muted/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
+            className="w-full bg-secondary border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
           />
           <input
             type="text"
@@ -53,7 +53,7 @@ const Contato = () => {
             required
             value={form.destino}
             onChange={(e) => setForm({ ...form, destino: e.target.value })}
-            className="w-full bg-muted/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
+            className="w-full bg-secondary border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition"
           />
           <textarea
             placeholder="Descrição (tipo de mudança, itens, etc.)"
@@ -61,7 +61,7 @@ const Contato = () => {
             required
             value={form.descricao}
             onChange={(e) => setForm({ ...form, descricao: e.target.value })}
-            className="w-full bg-muted/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition resize-none"
+            className="w-full bg-secondary border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition resize-none"
           />
           <button
             type="submit"
