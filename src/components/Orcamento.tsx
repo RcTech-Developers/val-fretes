@@ -4,11 +4,7 @@ const Orcamento = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto max-w-4xl reveal">
-        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 via-primary/10 to-transparent border border-primary/30 p-12 md:p-16 text-center">
-          {/* Glow */}
-          <div className="absolute -top-20 -right-20 w-60 h-60 bg-primary/20 rounded-full blur-3xl" />
-          <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-primary/10 rounded-full blur-3xl" />
-
+        <div className="relative rounded-2xl overflow-hidden bg-secondary border border-border p-12 md:p-16 text-center">
           <div className="relative z-10">
             <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">
               Solicite seu orçamento <span className="text-gradient">agora mesmo</span>

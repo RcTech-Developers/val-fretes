@@ -9,7 +9,7 @@ const items = [
 
 const Diferenciais = () => {
   return (
-    <section className="section-padding bg-secondary/30">
+    <section className="section-padding bg-secondary">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 reveal">
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">

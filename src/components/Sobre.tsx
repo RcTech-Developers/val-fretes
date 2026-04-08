@@ -9,7 +9,7 @@ const highlights = [
 
 const Sobre = () => {
   return (
-    <section id="sobre" className="section-padding bg-secondary/30">
+    <section id="sobre" className="section-padding bg-secondary">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 reveal">
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">
@@ -25,7 +25,7 @@ const Sobre = () => {
           {highlights.map((h) => (
             <div
               key={h.label}
-              className="glass-card p-6 text-center hover:scale-105 hover:border-primary/50 transition-all duration-300 group"
+              className="glass-card p-6 text-center hover:scale-105 transition-all duration-300 group"
             >
               <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <h.icon className="text-primary" size={28} />
