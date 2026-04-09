@@ -12,12 +12,11 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl pt-16">
-        <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 animate-fade-up text-foreground">
-          Fretes e Mudanças com{" "}
-          <span className="text-gradient">Segurança, Agilidade e Confiança</span>
-        </h1>
+        <div className="mb-8 animate-fade-up">
+          <img src={logoVal} alt="Val Fretes & Mudanças" className="mx-auto w-64 md:w-80 lg:w-96" />
+        </div>
         <p className="text-muted-foreground text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          Transporte profissional para residências e empresas
+          Transporte profissional para residências e empresas com segurança e confiança
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
           <a
