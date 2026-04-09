@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import logoVal from "@/assets/logo-val.png";
 
 const WHATSAPP_URL = "https://wa.me/5599999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20mudança.";
 
