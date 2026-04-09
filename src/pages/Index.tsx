@@ -5,7 +5,6 @@ import Servicos from "@/components/Servicos";
 import Galeria from "@/components/Galeria";
 import Diferenciais from "@/components/Diferenciais";
 import Contato from "@/components/Contato";
-import Orcamento from "@/components/Orcamento";
 import Footer from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -21,7 +20,6 @@ const Index = () => {
       <Galeria />
       <Diferenciais />
       <Contato />
-      <Orcamento />
       <Footer />
     </div>
   );

@@ -16,7 +16,7 @@ const Sobre = () => {
             Sobre <span className="text-gradient">Nós</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
-            A Val Fretes & Mudanças oferece serviços de transporte com responsabilidade, cuidado e pontualidade.
+            Val Fretes & Mudanças oferece serviços de transporte com responsabilidade, cuidado e pontualidade para todo Brasil.
             Nossa missão é garantir que seus bens cheguem com segurança e tranquilidade.
           </p>
         </div>

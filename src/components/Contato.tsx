@@ -15,7 +15,7 @@ const Contato = () => {
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12 reveal">
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">
-            Entre em <span className="text-gradient">Contato</span>
+           Solicite seu orçamento <span className="text-gradient"> <br /> agora mesmo</span>
           </h2>
           <p className="text-muted-foreground">Preencha o formulário e entraremos em contato rapidamente.</p>
         </div>

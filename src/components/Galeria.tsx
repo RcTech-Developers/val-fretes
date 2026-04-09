@@ -20,10 +20,10 @@ const Galeria = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 reveal">
           <h2 className="font-heading font-bold text-3xl md:text-4xl mb-4">
-            Galeria de <span className="text-gradient">Trabalhos</span>
+            Nossos <span className="text-gradient">Veiculos</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Confira alguns dos nossos serviços realizados com excelência.
+            Confira nossos veiculos legalizados e profissionais.
           </p>
         </div>
 

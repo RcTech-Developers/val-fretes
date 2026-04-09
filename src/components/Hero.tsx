@@ -1,7 +1,7 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import logoVal from "@/assets/logo-val.png";
 
-const WHATSAPP_URL = "https://wa.me/5599999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20mudança.";
+const WHATSAPP_URL = "https://wa.me/5521971553909?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20mudança.";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="mb-8 animate-fade-up">
           <img src={logoVal} alt="Val Fretes & Mudanças" className="mx-auto w-64 md:w-80 lg:w-96" />
         </div>
-        <p className="text-muted-foreground text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <p className="text-muted-foreground text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-up bach" style={{ animationDelay: "0.2s" }}>
           Transporte profissional para residências e empresas com segurança e confiança
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
