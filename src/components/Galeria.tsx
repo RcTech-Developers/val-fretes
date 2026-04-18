@@ -37,7 +37,7 @@ const Galeria = () => {
                 <img
                   src={photo.src}
                   alt={photo.alt}
-                 className="w-full h-64 object-contain object-center bg-white transition-all duration-500 group-hover:scale-105"
+                  className="w-full h-64 object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-75"
                 />
               </div>
 
